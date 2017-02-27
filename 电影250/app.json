@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/movie/movie",
+    "pages/search/search"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00",
+    "navigationBarTitleText": "电影250",
+    "navigationBarTextStyle":"white"
+  },
+   "tabBar": {
+    "list": [{
+      "iconPath": "icon_png/收藏.png",
+      "selectedIconPath":"icon_png/收藏 (1).png",
+      "text": "电影推荐",
+      "pagePath":"pages/index/index"
+    }, {
+       "iconPath": "icon_png/搜索.png",
+      "selectedIconPath":"icon_png/搜索 (1).png",
+      "text": "电影搜索",
+      "pagePath":"pages/search/search"
+    }]
+  }
+}
